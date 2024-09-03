@@ -245,7 +245,7 @@ class common_vsu_spawner_class //общий всу
         displayName = "Общий запрос техники";
         vehicles[] =
         {
-            {"b_afougf_uaf_t64bv",1,"true"},
+            {"b_afougf_uaf_t64bv",2,"true"},
             {"b_afougf_uaf_btr4",1,"true"},
             {"FA_UAF_BTR3",1,"true"},
             {"FA_UAF_BMP1U",1,"true"},
