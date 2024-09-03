@@ -8,7 +8,7 @@ class common_rf_spawner_class //общий рф
         vehicles[] =
         {
             {"RUS_MSV_South_t72b3m",1,"true"},
-            {"RUS_MSV_east_t80bv",1,"true"},
+            {"nord_t80bv_ua",1,"true"},
             {"RUS_MSV_South_bmp3",2,"true"},
             {"bs_BMP_2M",1,"true"},
             {"rhs_bmd4_vdv",2,"true"},
@@ -245,7 +245,7 @@ class common_vsu_spawner_class //общий всу
         displayName = "Общий запрос техники";
         vehicles[] =
         {
-            {"b_afougf_uaf_t64bv",2,"true"},
+            {"mkk_t64_bv_ua",2,"true"},
             {"b_afougf_uaf_btr4",1,"true"},
             {"FA_UAF_BTR3",1,"true"},
             {"FA_UAF_BMP1U",1,"true"},
