@@ -24,6 +24,16 @@ class common_rf_spawner_class //общий рф
             {"RUS_VDV_2b14",2,"true"},
             {"RUS_VKS_east_mi8amtsh_Unrmed",2,"true"},
             {"RUS_VDV_east_btrd",5,"true"},
+            {"RHS_UAZ_MSV_01",3,"true"},
+            {"nord_uaz452b_Z",4,"true"},
+            {"NORD_BRDM2_RU",2,"true"},
+            {"RUS_GRU_west_btr80",3,"true"},
+            {"RUS_GRU_west_asn233115",12,"true"},
+            {"RUS_VDV_kamaz4386",3,"true"},
+            {"rhs_tigr_sts_vdv",2,"true"},
+            {"bs_tigr_arbalet_dm",1,"true"},
+            {"bs_tigr_atgm",2,"true"},
+            {"RUS_GRU_east_kamaz63968",5,"true"}
 		};
         spawnPoints[] =
         {
@@ -258,7 +268,19 @@ class common_vsu_spawner_class //общий всу
             {"b_afougf_yt_Ural_repair",1,"true"},
             {"tbd_120mm_pm_43",1,"true"},
             {"RUS_VDV_2b14",1,"true"},
-            {"b_afougf_Mi8MTV3_Evac200",2,"true"}
+            {"b_afougf_Mi8MTV3_Evac200",2,"true"},
+            {"b_afougf_uaf_fiona",5,"true"},
+            {"b_afougf_kozak5_unarmed_F",3,"true"},
+            {"rhsusf_m1045_w_s",2,"true"},
+            {"b_afougf_uaf_dozor_nsvt",1,"true"},
+            {"hmmwv_m2_ukr_krest",1,"true"},
+            {"b_afougf_m1151_mk19_base",1,"true"},
+            {"b_afougf_uaf_novator",3,"true"},
+            {"btr80_ukr_krest",3,"true"},
+            {"b_afougf_BRDM2",2,"true"},
+            {"hmmwv_pickup_krest",9,"true"},
+            {"uaz2206_ukr_krest",4,"true"},
+            {"b_afougf_UAZ_Base",3,"true"}
         };
         spawnPoints[] =
         {
