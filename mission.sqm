@@ -25,9 +25,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={20592.908,273.45386,11468.345};
-		dir[]={-0.60681581,-0.38623881,0.69469023};
-		up[]={-0.25409377,0.92239887,0.29088962};
-		aside[]={0.75313431,1.8626451e-08,0.65786695};
+		dir[]={-0.60681564,-0.38623872,0.69469017};
+		up[]={-0.25409368,0.92239892,0.29088962};
+		aside[]={0.75313431,1.4901161e-08,0.65786695};
 	};
 };
 binarizationWanted=0;
@@ -534,7 +534,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -573,7 +573,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -30957,7 +30957,7 @@ class Mission
 															};
 															id=325;
 															type="Land_Laptop_03_sand_F";
-															atlOffset=0.81507874;
+															atlOffset=0.81506348;
 														};
 														class Item7
 														{
@@ -30995,7 +30995,7 @@ class Mission
 															};
 															id=2103;
 															type="Land_Laptop_03_sand_F";
-															atlOffset=0.81550598;
+															atlOffset=0.81549072;
 														};
 														class Item9
 														{
@@ -31018,27 +31018,27 @@ class Mission
 														};
 													};
 													id=315;
-													atlOffset=1.0570068;
+													atlOffset=1.0569916;
 												};
 											};
 											id=314;
-											atlOffset=1.0570068;
+											atlOffset=1.0569916;
 										};
 									};
 									id=313;
-									atlOffset=1.0570068;
+									atlOffset=1.0569916;
 								};
 							};
 							id=312;
-							atlOffset=1.0570068;
+							atlOffset=1.0569916;
 						};
 					};
 					id=311;
-					atlOffset=1.0570068;
+					atlOffset=1.0569916;
 				};
 			};
 			id=310;
-			atlOffset=1.0570068;
+			atlOffset=1.0569916;
 		};
 		class Item9
 		{
@@ -75405,7 +75405,7 @@ class Mission
 			type="";
 			a=150;
 			b=1053.6029;
-			angle=161.09395;
+			angle=161.09393;
 			id=57027;
 			atlOffset=3.0116425;
 			class CustomAttributes
@@ -75519,7 +75519,7 @@ class Mission
 			type="";
 			a=150;
 			b=1825.1195;
-			angle=96.809242;
+			angle=96.809235;
 			id=57029;
 			atlOffset=11.916809;
 			class CustomAttributes
@@ -75576,7 +75576,7 @@ class Mission
 			type="";
 			a=150;
 			b=1470.8805;
-			angle=333.45178;
+			angle=333.45175;
 			id=57030;
 			atlOffset=0.32070923;
 			class CustomAttributes
@@ -75747,7 +75747,7 @@ class Mission
 			type="";
 			a=150;
 			b=399.01248;
-			angle=23.360126;
+			angle=23.360125;
 			id=57033;
 			atlOffset=14.091309;
 			class CustomAttributes
@@ -75804,7 +75804,7 @@ class Mission
 			type="";
 			a=150;
 			b=1952.2426;
-			angle=111.8988;
+			angle=111.89879;
 			id=57034;
 			atlOffset=13.423035;
 			class CustomAttributes
@@ -75861,7 +75861,7 @@ class Mission
 			type="";
 			a=150;
 			b=1486.5461;
-			angle=142.76396;
+			angle=142.76395;
 			id=57035;
 			atlOffset=20.018951;
 			class CustomAttributes
@@ -75918,7 +75918,7 @@ class Mission
 			type="";
 			a=150;
 			b=2465.3147;
-			angle=85.845589;
+			angle=85.845581;
 			id=57036;
 			atlOffset=25.888824;
 			class CustomAttributes
@@ -75975,7 +75975,7 @@ class Mission
 			type="";
 			a=150;
 			b=4465.1665;
-			angle=336.27548;
+			angle=336.27545;
 			id=57037;
 			atlOffset=1.8337555;
 			class CustomAttributes
@@ -76032,7 +76032,7 @@ class Mission
 			type="";
 			a=150;
 			b=1658.5634;
-			angle=156.16997;
+			angle=156.16995;
 			id=57038;
 			atlOffset=1.5258789e-05;
 			class CustomAttributes
@@ -76089,7 +76089,7 @@ class Mission
 			type="";
 			a=150;
 			b=8188.0688;
-			angle=110.53636;
+			angle=110.53635;
 			id=57039;
 			atlOffset=-8.9832382;
 			class CustomAttributes
@@ -76146,7 +76146,7 @@ class Mission
 			type="";
 			a=150;
 			b=677.72131;
-			angle=303.29901;
+			angle=303.29898;
 			id=57040;
 			atlOffset=9.9520569;
 			class CustomAttributes
@@ -76203,7 +76203,7 @@ class Mission
 			type="";
 			a=150;
 			b=430.9151;
-			angle=318.91284;
+			angle=318.91281;
 			id=57041;
 			atlOffset=18.123596;
 			class CustomAttributes
@@ -76431,7 +76431,7 @@ class Mission
 			type="";
 			a=150;
 			b=580.2196;
-			angle=176.41444;
+			angle=176.41443;
 			id=57045;
 			atlOffset=21.143677;
 			class CustomAttributes
@@ -76488,7 +76488,7 @@ class Mission
 			type="";
 			a=150;
 			b=2837.7871;
-			angle=304.7598;
+			angle=304.75977;
 			id=57046;
 			atlOffset=26.716187;
 			class CustomAttributes
@@ -76546,7 +76546,7 @@ class Mission
 			colorName="ColorYellow";
 			a=20;
 			b=100;
-			angle=293.74347;
+			angle=293.74344;
 			id=57047;
 			atlOffset=0.12916565;
 			class CustomAttributes
@@ -76604,7 +76604,7 @@ class Mission
 			colorName="ColorYellow";
 			a=20;
 			b=100;
-			angle=293.74347;
+			angle=293.74344;
 			id=57048;
 			class CustomAttributes
 			{
@@ -76775,7 +76775,7 @@ class Mission
 			colorName="ColorYellow";
 			a=20;
 			b=100;
-			angle=293.74344;
+			angle=293.74341;
 			id=57051;
 			atlOffset=0.12918091;
 			class CustomAttributes
@@ -76833,7 +76833,7 @@ class Mission
 			colorName="ColorYellow";
 			a=20;
 			b=100;
-			angle=293.74344;
+			angle=293.74341;
 			id=57052;
 			atlOffset=1.5258789e-05;
 			class CustomAttributes
@@ -77006,7 +77006,7 @@ class Mission
 			colorName="ColorBlue";
 			a=50;
 			b=1738.0389;
-			angle=40.459969;
+			angle=40.459965;
 			id=57055;
 			class CustomAttributes
 			{
@@ -77063,7 +77063,7 @@ class Mission
 			colorName="ColorBlue";
 			a=50;
 			b=1503.3364;
-			angle=22.229544;
+			angle=22.229542;
 			id=57056;
 			atlOffset=1.927002;
 			class CustomAttributes
@@ -77179,7 +77179,7 @@ class Mission
 			colorName="ColorCIV";
 			a=50;
 			b=1134.0419;
-			angle=316.8064;
+			angle=316.80637;
 			id=57058;
 			atlOffset=25.307358;
 			class CustomAttributes
@@ -77295,7 +77295,7 @@ class Mission
 			colorName="ColorCIV";
 			a=50;
 			b=1606.6354;
-			angle=315.64178;
+			angle=315.64175;
 			id=57060;
 			atlOffset=4.6052551;
 			class CustomAttributes
@@ -77411,7 +77411,7 @@ class Mission
 			colorName="ColorCIV";
 			a=50;
 			b=1473.5315;
-			angle=183.87572;
+			angle=183.8757;
 			id=57065;
 			atlOffset=0.31599426;
 			class CustomAttributes
@@ -77469,7 +77469,7 @@ class Mission
 			colorName="ColorCIV";
 			a=50;
 			b=3601;
-			angle=299.76315;
+			angle=299.76312;
 			id=57080;
 			atlOffset=2.9062042;
 			class CustomAttributes
@@ -77527,7 +77527,7 @@ class Mission
 			colorName="ColorCIV";
 			a=50;
 			b=609.61444;
-			angle=39.907055;
+			angle=39.907051;
 			id=57082;
 			atlOffset=1.080719;
 			class CustomAttributes
