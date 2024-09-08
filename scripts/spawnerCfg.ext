@@ -256,10 +256,11 @@ class common_vsu_spawner_class //общий всу
         vehicles[] =
         {
             {"mkk_t64_bv_ua",2,"true"},
-            {"b_afougf_uaf_btr4",1,"true"},
-            {"FA_UAF_BTR3",1,"true"},
-            {"FA_UAF_BMP1U",1,"true"},
-            {"btr80_ukr_krest",1,"true"},
+            {"b_afougf_uaf_btr4",2,"true"},
+            {"FA_UAF_BTR3",3,"true"},
+            {"FA_UAF_BMP1U",2,"true"},
+            {"btr80a_krest",4,"true"},
+            {"bmp2_ukr_krest",2,"true"},
             {"b_afougf_bmp1p",1,"true"},
             {"ural_ukr_krest",10,"true"},
             {"rhsgref_cdf_b_gaz66_zu23",1,"true"},
