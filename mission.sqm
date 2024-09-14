@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16790;
+		nextID=17071;
 	};
 	class Camera
 	{
-		pos[]={8728.2412,418.77832,20992.723};
-		dir[]={0.84465563,-0.43386889,-0.31355163};
-		up[]={0.40674758,0.90097606,-0.15099216};
-		aside[]={-0.34801328,0,-0.93748963};
+		pos[]={3359.3389,270.13779,854.43933};
+		dir[]={-0.70858014,-0.69736439,-0.10805836};
+		up[]={-0.68940818,0.71670491,-0.10513148};
+		aside[]={-0.15075892,1.3501121e-006,0.98861581};
 	};
 };
 binarizationWanted=0;
@@ -534,7 +534,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -573,7 +573,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -586,7 +586,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -30957,7 +30957,7 @@ class Mission
 															};
 															id=325;
 															type="Land_Laptop_03_sand_F";
-															atlOffset=0.81506348;
+															atlOffset=0.81507874;
 														};
 														class Item7
 														{
@@ -30995,7 +30995,7 @@ class Mission
 															};
 															id=2103;
 															type="Land_Laptop_03_sand_F";
-															atlOffset=0.81549072;
+															atlOffset=0.81550598;
 														};
 														class Item9
 														{
@@ -31018,27 +31018,27 @@ class Mission
 														};
 													};
 													id=315;
-													atlOffset=1.0569916;
+													atlOffset=1.0570068;
 												};
 											};
 											id=314;
-											atlOffset=1.0569916;
+											atlOffset=1.0570068;
 										};
 									};
 									id=313;
-									atlOffset=1.0569916;
+									atlOffset=1.0570068;
 								};
 							};
 							id=312;
-							atlOffset=1.0569916;
+							atlOffset=1.0570068;
 						};
 					};
 					id=311;
-					atlOffset=1.0569916;
+					atlOffset=1.0570068;
 				};
 			};
 			id=310;
-			atlOffset=1.0569916;
+			atlOffset=1.0570068;
 		};
 		class Item9
 		{
@@ -75405,7 +75405,7 @@ class Mission
 			type="";
 			a=150;
 			b=2116.2576;
-			angle=1.7040466;
+			angle=1.7040465;
 			id=57027;
 			atlOffset=-29.09185;
 			class CustomAttributes
