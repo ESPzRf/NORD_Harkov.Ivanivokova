@@ -108,7 +108,7 @@ class odshbr31_spawner_class //31 ОДШБр
             {"RHS_UAZ_MSV_01",1,"true"},
             {"nord_uaz452b_Z",1,"true"},
             {"RUS_VDV_SpN_asn233115",2,"true"},
-            {"RUS_MSV_West_btr80",1,"true"},
+            {"RUS_VDV_SpN_btr82a",1,"true"},
             {"RUS_GRU_west_kamaz63968",1,"true"}
         };
         spawnPoints[] =
