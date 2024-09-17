@@ -200,7 +200,7 @@ class obrspn2_spawner_class //2 ОБРСпН
         displayName = "Запрос техники 2 ОБРСпН";
         vehicles[] =
         {
-            {"nord_t80bv_ua",1,"true"},
+            {"RUS_MSV_t80bv",1,"true"},
             {"rhs_bmp1p_vv",1,"true"},
             {"rhs_btr82_msv",1,"true"},
             {"RHS_UAZ_MSV_01",1,"true"},
