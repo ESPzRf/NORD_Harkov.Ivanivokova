@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=24113;
+		nextID=24466;
 	};
 	class Camera
 	{
-		pos[]={2843.4124,167.76009,773.2832};
-		dir[]={-0.51283497,-0.48411483,0.70899886};
-		up[]={-0.28373638,0.87499744,0.39226833};
-		aside[]={0.81027502,1.4488614e-007,0.58609182};
+		pos[]={2811.3533,175.13324,886.85004};
+		dir[]={-0.28602338,-0.45779553,-0.84183294};
+		up[]={-0.14727896,0.88904661,-0.43347606};
+		aside[]={-0.9468714,1.169974e-008,0.32171088};
 	};
 };
 binarizationWanted=0;
@@ -738,7 +738,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -764,7 +764,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -777,7 +777,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -790,7 +790,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -14361,7 +14361,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=2;
+														value=3;
 													};
 												};
 												class Item1
@@ -14533,18 +14533,6 @@ class CustomAttributes
 													class data
 													{
 														singleType="ARRAY";
-														class value
-														{
-															items=1;
-															class Item0
-															{
-																class data
-																{
-																	singleType="STRING";
-																	value="ace_repair_anyToolKit";
-																};
-															};
-														};
 													};
 												};
 												class Item1
@@ -46589,7 +46577,7 @@ class Mission
 							};
 							id=54714;
 							type="Land_Defibrillator_F";
-							atlOffset=0.069915771;
+							atlOffset=0.00022888184;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -86296,7 +86284,7 @@ class Mission
 							};
 							id=61715;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item7
 						{
@@ -86315,7 +86303,7 @@ class Mission
 							};
 							id=61716;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item8
 						{
@@ -86334,7 +86322,7 @@ class Mission
 							};
 							id=61717;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item9
 						{
@@ -86353,7 +86341,7 @@ class Mission
 							};
 							id=61718;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item10
 						{
@@ -86372,7 +86360,7 @@ class Mission
 							};
 							id=61719;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item11
 						{
@@ -86391,7 +86379,7 @@ class Mission
 							};
 							id=61720;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item12
 						{
@@ -86410,7 +86398,7 @@ class Mission
 							};
 							id=61721;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item13
 						{
@@ -86429,7 +86417,7 @@ class Mission
 							};
 							id=61722;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item14
 						{
@@ -86448,7 +86436,7 @@ class Mission
 							};
 							id=61723;
 							type="Land_PainKillers_F";
-							atlOffset=1.5258789e-005;
+							atlOffset=-0.039672852;
 						};
 						class Item15
 						{
@@ -86543,7 +86531,7 @@ class Mission
 							};
 							id=61728;
 							type="Land_Defibrillator_F";
-							atlOffset=0.0039367676;
+							atlOffset=-0.072753906;
 						};
 						class Item20
 						{
@@ -91371,7 +91359,7 @@ class Mission
 			colorName="ColorCIV";
 			a=48.540154;
 			b=1802.9554;
-			angle=27.871914;
+			angle=27.871912;
 			id=63450;
 			class CustomAttributes
 			{
@@ -91836,7 +91824,7 @@ class Mission
 			fillName="DiagGrid";
 			a=267.44598;
 			b=316.92401;
-			angle=227.8866;
+			angle=227.88658;
 			id=63458;
 			atlOffset=4.4694214;
 			class CustomAttributes
@@ -92072,7 +92060,7 @@ class Mission
 			fillName="DiagGrid";
 			a=52.65448;
 			b=306.99982;
-			angle=113.60047;
+			angle=113.60046;
 			id=63462;
 			atlOffset=-1.3373337;
 			class CustomAttributes
