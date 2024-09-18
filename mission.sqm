@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=23407;
+		nextID=24113;
 	};
 	class Camera
 	{
-		pos[]={28247.805,304.18198,29004.838};
-		dir[]={-0.66171855,-0.74718291,-0.062045522};
-		up[]={-0.74392009,0.664617,-0.069752872};
-		aside[]={-0.093354754,3.6901838e-008,0.99563342};
+		pos[]={2843.4124,167.76009,773.2832};
+		dir[]={-0.51283497,-0.48411483,0.70899886};
+		up[]={-0.28373638,0.87499744,0.39226833};
+		aside[]={0.81027502,1.4488614e-007,0.58609182};
 	};
 };
 binarizationWanted=0;
@@ -764,7 +764,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -777,7 +777,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -790,7 +790,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -17514,7 +17514,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=0;
+														value=1;
 													};
 												};
 												class Item1
@@ -91371,7 +91371,7 @@ class Mission
 			colorName="ColorCIV";
 			a=48.540154;
 			b=1802.9554;
-			angle=27.871918;
+			angle=27.871914;
 			id=63450;
 			class CustomAttributes
 			{
@@ -91836,7 +91836,7 @@ class Mission
 			fillName="DiagGrid";
 			a=267.44598;
 			b=316.92401;
-			angle=227.88663;
+			angle=227.8866;
 			id=63458;
 			atlOffset=4.4694214;
 			class CustomAttributes
@@ -92072,7 +92072,7 @@ class Mission
 			fillName="DiagGrid";
 			a=52.65448;
 			b=306.99982;
-			angle=113.60049;
+			angle=113.60047;
 			id=63462;
 			atlOffset=-1.3373337;
 			class CustomAttributes
