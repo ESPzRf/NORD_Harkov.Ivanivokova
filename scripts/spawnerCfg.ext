@@ -111,7 +111,7 @@ class odshbr31_spawner_class //31 ОДШБр
         displayName = "Запрос техники 31 ОДШБр";
         vehicles[] =
         {
-            {"RUS_MSV_South_bmp3",1,"true"},
+            {"rhs_bmp3mera_msv",1,"true"},
             {"RHS_UAZ_MSV_01",1,"true"},
             {"nord_uaz452b_Z",1,"true"},
             {"RUS_VDV_SpN_asn233115",2,"true"},
@@ -182,9 +182,9 @@ class odshbr11_spawner_class //11одшбр
         vehicles[] =
         {
 			{"RUS_MSV_South_t72b3m",1,"true"},
-            {"rhs_bmd4_vdv",2,"true"},
+            {"rhs_bmd4ma_vdv",2,"true"},
             {"rhs_btr82_vv",1,"true"},
-            {"rhs_btr82_msv",1,"true"},
+            {"RUS_VDV_SpN_btr82a",1,"true"},
             {"RUS_VDV_SpN_asn233115",2,"true"},
             {"RUS_VDV_kamaz4386",2,"true"},
             {"RUS_GRU_west_kamaz63968",1,"true"},
@@ -207,7 +207,7 @@ class obrspn2_spawner_class //2 ОБРСпН
         displayName = "Запрос техники 2 ОБРСпН";
         vehicles[] =
         {
-            {"RUS_MSV_t80bv",1,"true"},
+            {"RUS_MSV_South_t72b3m",1,"true"},
             {"rhs_bmp1p_vv",1,"true"},
             {"rhs_btr82_msv",1,"true"},
             {"RHS_UAZ_MSV_01",1,"true"},
@@ -234,7 +234,7 @@ class omon_spawner_class //ОМОН "Урал"
         displayName = "Запрос техники ОМОН Урал";
         vehicles[] =
         {
-			{"RUS_MSV_South_bmp3",1,"true"},
+			{"rhs_bmp3mera_msv",1,"true"},
             {"nord_uaz452b_Z",1,"true"},
             {"RUS_GRU_west_asn233115",1,"true"},
             {"RUS_MSV_West_btr80",1,"true"},
