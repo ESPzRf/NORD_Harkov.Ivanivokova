@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=64161;
+		nextID=64167;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=25200;
+		nextID=25562;
 	};
 	class Camera
 	{
-		pos[]={2777.2461,170.59192,732.64124};
-		dir[]={0.69459546,-0.68831295,0.20919473};
-		up[]={0.65907073,0.72541392,0.19849557};
-		aside[]={0.28837985,-1.4901161e-08,-0.95751619};
+		pos[]={28150.332,199.63573,28934.256};
+		dir[]={-0.40977076,-0.57510889,0.70806974};
+		up[]={-0.28806704,0.81807178,0.49776924};
+		aside[]={0.86552227,-1.511653e-07,0.50089067};
 	};
 };
 binarizationWanted=0;
@@ -156,13 +156,16 @@ addons[]=
 	"CUP_New_Buildings_Warehouse_Mezzanine",
 	"A3_Modules_F_Multiplayer",
 	"rhsusf_vehicles",
-	"afou_c_ural"
+	"afou_c_ural",
+	"RUS_MSV_South_MotorRifleTroops",
+	"bs_tigr_9p163",
+	"A3_uaz_PK_Truck"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=78;
+		items=81;
 		class Item0
 		{
 			className="A3_Props_F_Enoch";
@@ -669,6 +672,21 @@ class AddonsMetaData
 			author="Red Hammer Studios, retexture: Barman75, Brezerk";
 			url="https://bit.ly/ArmaUA";
 		};
+		class Item78
+		{
+			className="RUS_MSV_South_MotorRifleTroops";
+			name="RUS_MSV_South_MotorRifleTroops";
+		};
+		class Item79
+		{
+			className="bs_tigr_9p163";
+			name="bs_tigr_9p163";
+		};
+		class Item80
+		{
+			className="A3_uaz_PK_Truck";
+			name="A3_uaz_PK_Truck";
+		};
 	};
 };
 dlcs[]=
@@ -731,7 +749,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -757,7 +775,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -783,7 +801,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -30348,7 +30366,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=320;
+		items=326;
 		class Item0
 		{
 			dataType="Layer";
@@ -40834,7 +40852,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2866.0483,147.53909,728.80591};
-				angles[]={-0,5.8366323,0};
+				angles[]={0,5.8366323,0};
 			};
 			side="Empty";
 			flags=4;
@@ -41470,7 +41488,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2734.9385,147.539,872.08801};
-				angles[]={-0,2.7084284,0};
+				angles[]={0,2.7084284,0};
 			};
 			side="Empty";
 			flags=4;
@@ -42366,7 +42384,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2820.897,147.53902,810.27393};
-				angles[]={-0,2.7413337,0};
+				angles[]={0,2.7413337,0};
 			};
 			side="Empty";
 			flags=4;
@@ -64609,7 +64627,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28069.414,182.10739,29021.041};
-						angles[]={-0,0.37392431,0};
+						angles[]={0,0.37392431,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64645,7 +64663,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28078.311,182.10728,29027.906};
-						angles[]={-0,5.5874667,0};
+						angles[]={0,5.5874667,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64680,7 +64698,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28081.961,182.10733,29029.547};
-						angles[]={-0,5.9380684,0};
+						angles[]={0,5.9380684,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64734,7 +64752,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28098.813,182.10742,28957.527};
-						angles[]={-0,4.4018683,0};
+						angles[]={0,4.4018683,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64753,7 +64771,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28091.018,182.10742,28953.377};
-						angles[]={-0,3.9645264,0};
+						angles[]={0,3.9645264,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64772,7 +64790,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28113.307,182.10738,28968.51};
-						angles[]={-0,1.3409909,0};
+						angles[]={0,1.3409909,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64792,7 +64810,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28082.834,182.10742,28981.857};
-						angles[]={-0,3.763782,0};
+						angles[]={0,3.763782,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64882,7 +64900,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28074.291,182.08905,29015.834};
-						angles[]={-0,2.0220141,0};
+						angles[]={0,2.0220141,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64930,7 +64948,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28085.902,182.08905,29014.654};
-						angles[]={-0,2.7367008,0};
+						angles[]={0,2.7367008,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64978,7 +64996,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28081.893,182.08905,29022.063};
-						angles[]={-0,2.6836309,0};
+						angles[]={0,2.6836309,0};
 					};
 					side="Empty";
 					flags=4;
@@ -65026,7 +65044,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28078.477,182.08885,29007.641};
-						angles[]={-0,0.34150571,0};
+						angles[]={0,0.34150571,0};
 					};
 					side="Empty";
 					flags=4;
@@ -65074,7 +65092,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28098.73,182.08894,28969.521};
-						angles[]={-0,0.010979843,0};
+						angles[]={0,0.010979843,0};
 					};
 					side="Empty";
 					flags=4;
@@ -65122,7 +65140,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={2820.9182,147.53902,817.46967};
-						angles[]={-0,2.7728226,0};
+						angles[]={0,2.7728226,0};
 					};
 					side="Empty";
 					flags=4;
@@ -74959,7 +74977,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28121.48,182.08902,28937.953};
-						angles[]={-0,5.7126431,0};
+						angles[]={0,5.7126431,0};
 					};
 					side="Empty";
 					flags=4;
@@ -75249,7 +75267,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28098.449,182.08839,28996.809};
-						angles[]={-0,3.5620527,0};
+						angles[]={0,3.5620527,0};
 					};
 					side="Empty";
 					flags=4;
@@ -75379,7 +75397,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28074.248,182.10663,28991.553};
-						angles[]={-0,4.3783484,0};
+						angles[]={0,4.3783484,0};
 					};
 					side="Empty";
 					flags=4;
@@ -75652,7 +75670,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28083.885,182.08839,28993.514};
-						angles[]={-0,1.087764,0};
+						angles[]={0,1.087764,0};
 					};
 					side="Empty";
 					flags=4;
@@ -75980,7 +75998,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={28076.457,182.10742,28976.693};
-						angles[]={-0,3.7314506,0};
+						angles[]={0,3.7314506,0};
 					};
 					side="Empty";
 					flags=4;
@@ -83295,7 +83313,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={2817.4294,149.33713,777.56024};
-								angles[]={-0,5.9187131,0};
+								angles[]={0,5.9187131,0};
 							};
 							side="Empty";
 							flags=4;
@@ -83375,7 +83393,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={2799.5989,149.33713,741.44836};
-								angles[]={-0,2.7486024,0};
+								angles[]={0,2.7486024,0};
 							};
 							side="Empty";
 							flags=4;
@@ -92004,7 +92022,7 @@ class Mission
 			type="";
 			a=150;
 			b=891.4118;
-			angle=183.54144;
+			angle=183.54143;
 			id=64070;
 			atlOffset=10.484299;
 			class CustomAttributes
@@ -92088,7 +92106,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12168.67,162.75974,15337.572};
-			angle=1.7823346;
+			angle=1.7823344;
 			class Attributes
 			{
 				sizeA=74.989807;
@@ -94384,7 +94402,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2792.9583,147.80164,741.43549};
-				angles[]={-0,1.1552258,0};
+				angles[]={0,1.1552258,0};
 			};
 			side="Empty";
 			flags=4;
@@ -94421,7 +94439,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2796.1389,147.64101,739.05902};
-				angles[]={-0,0.26453975,0};
+				angles[]={0,0.26453975,0};
 			};
 			title="92 ОМБр";
 			id=64157;
@@ -94536,6 +94554,451 @@ class Mission
 					};
 				};
 				nAttributes=2;
+			};
+		};
+		class Item320
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={28137.891,184.53506,28961.811};
+				angles[]={-0,2.5944717,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64161;
+			type="RUS_MSV_South_kamaz4310";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', [5,6,7,8], _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', [9],  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', [10],  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item321
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={28130.184,184.5311,28956.307};
+				angles[]={-0,2.5944717,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64162;
+			type="RUS_MSV_South_kamaz4310";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', [5,6,7,8], _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', [9],  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', [10],  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item322
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={28110.805,184.3288,28948.211};
+				angles[]={-0,2.5979002,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64163;
+			type="bs_tigr_atgm_deform";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecalsTigr4NumberPlaces, _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item323
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={28103.969,181.91754,28943.594};
+				angles[]={-0,2.5672719,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64164;
+			type="UAZ_PO_AGS_Camo";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item324
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={28097.885,181.91754,28940.365};
+				angles[]={-0,2.5672719,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64165;
+			type="UAZ_PO_AGS_Camo";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item325
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={28091.977,184.53506,28937.172};
+				angles[]={-0,2.5944717,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=64166;
+			type="RUS_MSV_South_kamaz4310";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', [5,6,7,8], _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', [9],  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', [10],  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
 	};
