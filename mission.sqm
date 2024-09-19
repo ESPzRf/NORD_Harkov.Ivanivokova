@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=25562;
+		nextID=25924;
 	};
 	class Camera
 	{
-		pos[]={28150.332,199.63573,28934.256};
-		dir[]={-0.40977076,-0.57510889,0.70806974};
-		up[]={-0.28806704,0.81807178,0.49776924};
-		aside[]={0.86552227,-1.511653e-07,0.50089067};
+		pos[]={28190.127,207.63849,29047.697};
+		dir[]={-0.75650936,-0.49587688,-0.42640311};
+		up[]={-0.43198889,0.86839116,-0.2434888};
+		aside[]={-0.49102443,-1.6629929e-07,0.87115955};
 	};
 };
 binarizationWanted=0;
@@ -749,7 +749,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -775,7 +775,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -788,7 +788,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -801,7 +801,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -94561,8 +94561,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={28137.891,184.53506,28961.811};
-				angles[]={-0,2.5944717,0};
+				position[]={28101.01,184.53413,29045.609};
+				angles[]={-0,1.0995349,0};
 			};
 			side="Empty";
 			flags=4;
@@ -94571,6 +94571,7 @@ class Mission
 			};
 			id=64161;
 			type="RUS_MSV_South_kamaz4310";
+			atlOffset=0.00025939941;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -94659,8 +94660,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={28130.184,184.5311,28956.307};
-				angles[]={-0,2.5944717,0};
+				position[]={28090.313,184.53375,29040.609};
+				angles[]={-0,1.0995349,0};
 			};
 			side="Empty";
 			flags=4;
@@ -94757,8 +94758,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={28110.805,184.3288,28948.211};
-				angles[]={-0,2.5979002,0};
+				position[]={28112.428,184.32787,29017.607};
+				angles[]={-0,1.1029633,0};
 			};
 			side="Empty";
 			flags=4;
@@ -94767,6 +94768,7 @@ class Mission
 			};
 			id=64163;
 			type="bs_tigr_atgm_deform";
+			atlOffset=0.0002746582;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -94842,8 +94844,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={28103.969,181.91754,28943.594};
-				angles[]={-0,2.5672719,0};
+				position[]={28116.689,181.92078,29010.592};
+				angles[]={-0,1.0723351,0};
 			};
 			side="Empty";
 			flags=4;
@@ -94875,8 +94877,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={28097.885,181.91754,28940.365};
-				angles[]={-0,2.5672719,0};
+				position[]={28119.447,181.91844,29004.281};
+				angles[]={-0,1.0723351,0};
 			};
 			side="Empty";
 			flags=4;
@@ -94908,8 +94910,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={28091.977,184.53506,28937.172};
-				angles[]={-0,2.5944717,0};
+				position[]={28122.004,184.53413,28998.111};
+				angles[]={-0,1.0995349,0};
 			};
 			side="Empty";
 			flags=4;
