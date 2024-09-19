@@ -601,6 +601,24 @@ class obrtro127_spawner_class //127 ОБрТрО
         
     };
 };
+class ombr92_spawner_class //92 ОМБр
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ombr92_spawner)"; // "(playerSide in [west,independent])"
+    
+    class ombr92_spawner_class
+	{
+        displayName = "Запрос техники 92 ОМБр";
+        vehicles[] =
+        {
+			//{"class_name",1,"true"},
+        };
+        spawnPoints[] =
+        {
+            {"1",{"ombr92_spawnplace"}}
+        };
+        
+    };
+};
 class event_spawner_class //Ивентологи
 {
     conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == event_spawner)"; // "(playerSide in [west,independent])"
