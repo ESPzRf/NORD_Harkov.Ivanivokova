@@ -85,6 +85,16 @@ obrmp61_class = [] spawn ///
 	[_box, _list] call ace_arsenal_fnc_initBox;
 	} forEach _boxes;
 };
+msbr200_class = [] spawn /// 
+{
+	_boxes = [msbr200_ars];
+	{
+	_box = _x;
+	_list = [];
+	_list = _list - restrRUS;
+	[_box, _list] call ace_arsenal_fnc_initBox;
+	} forEach _boxes;
+};
 
  // -------------- ВСУ ------------------------------------------------------------------------------------------------------------------------------------
 

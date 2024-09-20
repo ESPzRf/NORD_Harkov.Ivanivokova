@@ -250,7 +250,7 @@ class omon_spawner_class //ОМОН "Урал"
     };
 };
 
-class obrmp61_spawner_class //БАРС-13
+class obrmp61_spawner_class //61 ОБрМП
 {
     conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp61_spawner)"; // "(playerSide in [west,independent])"
     
@@ -274,6 +274,27 @@ class obrmp61_spawner_class //БАРС-13
         
     };
 };
+
+class msbr200_spawner_class //200 МСБр
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == msbr200_spawner)"; // "(playerSide in [west,independent])"
+    
+    class msbr200_spawner_class
+	{
+        displayName = "Запрос техники 200 МСБр";
+        vehicles[] =
+        {
+            //{"bs_BMP_2M",1,"true"},
+        };
+        spawnPoints[] =
+        {
+            {"1",{"msbr200_spawnplace"}}
+        };
+        
+    };
+};
+
+//ХОХЛЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
 
 class common_vsu_spawner_class //общий всу
 {
