@@ -585,7 +585,7 @@ class oambr81_spawner_class //ДШВ 81 ОАМБр
         vehicles[] =
         {
             {"rhs_btr82_vv",1,"true"},
-            {"FA_UAF_BTR3",1,"true"},
+            {"FA_UAF_BTR3_NO_ATGM",1,"true"},
             {"hmmwv_pickup_ukr_krest",1,"true"},
             {"b_afougf_uaf_fiona",1,"true"}
         };
@@ -608,7 +608,7 @@ class obrtro127_spawner_class //127 ОБрТрО
             {"uaz2206_ukr_krest",1,"true"},
             {"hmmwv_pickup_ukr_krest",2,"true"},
             {"b_afougf_yt_BRDM2",1,"true"},
-            {"FA_UAF_BTR3",1,"true"},
+            {"FA_UAF_BTR3_NO_ATGM",1,"true"},
             {"btr80_ukr_krest",2,"true"},
             {"b_afougf_uaf_fiona",2,"true"}
         };
