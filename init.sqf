@@ -4,6 +4,10 @@
 [] execVM "scripts\arsenals.sqf";
 [] execVM "ROS_hitreaction\scripts\ROS_HitReaction.sqf";
 
+//Светлая ночь
+CHBN_adjustBrightness = 1;
+CHBN_adjustColor = [0.5,0.7,1];
+
 pvpfw_chatIntercept_executeCommand = compile preProcessFilelineNumbers "scripts\chat\executeCommand.sqf";
 
 1 enableChannel [false, true];
