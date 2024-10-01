@@ -34,10 +34,8 @@ class common_vks_spawner_class //ВКС
         displayName = "Запрос техники ВКС";
         vehicles[] =
         {
-            {"RUS_VKS_east_ka52",1,"true"},
-            {"V_TAG_Mi_35_23mm_bez_pturov",1,"true"},
-            {"RUS_VKS_east_mi8amtsh",1,"true"}
-
+            {"mi24_rus_v_pturi",1,"true"},
+            {"V_TAG_Mi_35_23mm_bez_pturov",2,"true"}
         };
         spawnPoints[] =
         {
