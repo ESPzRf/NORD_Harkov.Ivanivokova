@@ -31032,8 +31032,8 @@ class Mission
 															flags=4;
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""sbu_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="sbu_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""oshb_425_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="oshb_425_spawner";
 																disableSimulation=1;
 															};
 															id=317;
@@ -31375,7 +31375,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				name="sbu_spawnplace";
+				name="oshb_425_spawnplace";
 				disableSimulation=1;
 			};
 			id=334;
@@ -32923,8 +32923,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="sbu";
-												init="this setVariable [""regArs"", sbu_ars, true];" \n "this setVariable [""regSpawner"", sbu_spawner, true];";
+												name="oshb_425";
+												init="this setVariable [""regArs"", oshb_425_ars, true];" \n "this setVariable [""regSpawner"", oshb_425_spawner, true];";
 											};
 											id=33107;
 											class CustomAttributes
@@ -43125,7 +43125,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_AGS30_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""rhsusf_mag_6Rnd_M441_HE"", 5];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n "};" \n "";
-				name="sbu_ars";
+				name="oshb_425_ars";
 			};
 			id=284;
 			type="rhs_spec_weapons_crate";

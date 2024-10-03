@@ -525,13 +525,13 @@ class signum_spawner_class //Сигнум
     };
 };
 
-class sbu_spawner_class //ЦСО СБУ "А"
+class oshb_425_spawner_class //425 ОШБ
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == sbu_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oshb_425_spawner)"; // "(playerSide in [west,independent])"
     
-    class sbu_spawner_class
+    class oshb_425_spawner_class
 	{
-        displayName = "Запрос техники ЦСО СБУ А";
+        displayName = "Запрос техники 425 ОШБ";
         vehicles[] =
         {
 			{"hmmwv_pickup_ukr_krest",2,"true"},
@@ -543,7 +543,7 @@ class sbu_spawner_class //ЦСО СБУ "А"
         };
         spawnPoints[] =
         {
-            {"1",{"sbu_spawnplace"}}
+            {"1",{"oshb_425_spawnplace"}}
         };
         
     };
