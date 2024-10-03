@@ -30671,7 +30671,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="ЦСО СБУ ""А""";
+									value="425 ОШБ";
 								};
 							};
 						};
@@ -31507,7 +31507,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @ЦСО СБУ ""А""";
+														description="Командир @425 ОШБ";
 														isPlayable=1;
 														class Inventory
 														{
@@ -32938,7 +32938,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="ЦСО СБУ ""А""";
+															value="425 ОШБ";
 														};
 													};
 												};
@@ -41561,7 +41561,7 @@ class Mission
 				position[]={2853.1768,153.46941,793.52484};
 				angles[]={0,0.39318258,0};
 			};
-			title="ЦСО СБУ ""А""";
+			title="425 ОШБ";
 			id=606;
 			atlOffset=2.2027588;
 		};
