@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=97530;
+		nextID=97532;
 	};
 	class MarkerIDProvider
 	{
@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=46228;
+		nextID=46957;
 	};
 	class Camera
 	{
-		pos[]={26010.607,187.63324,21888.119};
-		dir[]={0.20602609,-0.64873821,0.73260301};
-		up[]={0.17563093,0.76100606,0.62452126};
-		aside[]={0.9626658,6.7026122e-08,-0.27072474};
+		pos[]={18586.82,346.13611,14911.897};
+		dir[]={-0.90734065,-0.41984093,-0.021848625};
+		up[]={-0.41972092,0.90759605,-0.010107137};
+		aside[]={-0.02407405,-2.5009149e-07,0.99971628};
 	};
 };
 binarizationWanted=0;
-sourceName="~tempMissionMP";
+sourceName="NORD_Harkov";
 addons[]=
 {
 	"A3_Props_F_Enoch_Military_Equipment",
@@ -85,11 +85,13 @@ addons[]=
 	"A3_Modules_F",
 	"vostoktriggermodule",
 	"A3_Weapons_F_Exp",
+	"ace_realisticnames",
 	"A3_Weapons_F_Explosives",
 	"A3_Modules_F_Curator_Mines",
+	"ace_explosives",
 	"A3_Structures_F_Globe_Items_Electronics",
 	"A3_Props_F_Enoch_Military_Camps",
-	"kat_misc",
+	"kat_stretcher",
 	"CUP_Misc3_Config",
 	"CUP_CAMisc",
 	"CUP_CAStructures_E_Misc_Misc_Market",
@@ -146,6 +148,7 @@ addons[]=
 	"A3_Structures_F_Enoch_Military_Radar",
 	"A3_Structures_F_Enoch_Civilian_Medical",
 	"A3_Structures_F_Furniture",
+	"kat_misc",
 	"rhs_c_trucks",
 	"afou_c_gaz66",
 	"A3_Props_F_Orange_Furniture",
@@ -160,7 +163,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=76;
+		items=78;
 		class Item0
 		{
 			className="A3_Props_F_Enoch";
@@ -425,232 +428,246 @@ class AddonsMetaData
 		};
 		class Item39
 		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="Команда ACE";
+			url="https://ace3.acemod.org/";
+		};
+		class Item40
+		{
 			className="A3_Structures_F_Globe";
 			name="O&T Expansion Eden - Buildings and Structures";
 			author="Trager";
 			url="https://steamcommunity.com/workshop/filedetails/?id=1923321700";
 		};
-		class Item40
+		class Item41
 		{
-			className="kat_misc";
-			name="KAT - KAT - MISC";
+			className="kat_stretcher";
+			name="KAT - KAT - STRETCHER";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item41
+		class Item42
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item42
+		class Item43
 		{
 			className="CUP_CAMisc";
 			name="CUP_CAMisc";
 		};
-		class Item43
+		class Item44
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Market";
 			name="CUP_CAStructures_E_Misc_Misc_Market";
 		};
-		class Item44
+		class Item45
 		{
 			className="CUP_Editor_Structures_Config";
 			name="CUP_Editor_Structures_Config";
 		};
-		class Item45
+		class Item46
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item46
+		class Item47
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Interier";
 			name="CUP_CAStructures_E_Misc_Misc_Interier";
 		};
-		class Item47
+		class Item48
 		{
 			className="CUP_WarfareBuildings";
 			name="CUP_WarfareBuildings";
 		};
-		class Item48
+		class Item49
 		{
 			className="CUP_StandaloneTerrains_Core_Faction";
 			name="CUP_StandaloneTerrains_Core_Faction";
 		};
-		class Item49
+		class Item50
 		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item50
+		class Item51
 		{
 			className="tfar_handhelds";
 			name="tfar_handhelds";
 			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item51
+		class Item52
 		{
 			className="Russian_PMC";
 			name="Russian_PMC";
 		};
-		class Item52
+		class Item53
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="Команда ACE";
 			url="https://ace3.acemod.org/";
 		};
-		class Item53
+		class Item54
 		{
 			className="CUP_Editor_A2_Roads_Config";
 			name="CUP_Editor_A2_Roads_Config";
 		};
-		class Item54
+		class Item55
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item55
+		class Item56
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="Команда ACE";
 			url="https://ace3.acemod.org/";
 		};
-		class Item56
+		class Item57
 		{
 			className="rhs_structures_misc";
 			name="Terracore Misc Structures";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item57
+		class Item58
 		{
 			className="A3_Structures_F_Households";
 			name="Arma 3 - Houses";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item58
+		class Item59
 		{
 			className="CUP_CAStructures_Mil";
 			name="CUP_CAStructures_Mil";
 		};
-		class Item59
+		class Item60
 		{
 			className="buildings";
 			name="buildings";
 		};
-		class Item60
+		class Item61
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item61
+		class Item62
 		{
 			className="A3_Structures_F_Enoch_Industrial";
 			name="Arma 3 Contact Platform - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item62
+		class Item63
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item63
+		class Item64
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item64
+		class Item65
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item65
+		class Item66
 		{
 			className="rhs_c_radars";
 			name="Radars";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item66
+		class Item67
 		{
 			className="rhsusf_c_commskit";
 			name="Combat Net Radio System";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item67
+		class Item68
 		{
 			className="ace_sitting";
 			name="ACE3 - Sitting";
 			author="Команда ACE";
 			url="https://ace3.acemod.org/";
 		};
-		class Item68
+		class Item69
 		{
 			className="rhsusf_c_props";
 			name="RHSUSF Editor Props";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item69
+		class Item70
 		{
 			className="A3_Props_F_Enoch_Items_AluminiumFoil";
 			name="Contact Anomalies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item70
+		class Item71
 		{
 			className="rhs_c_a2port_air";
 			name="A2 ported air";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item71
+		class Item72
 		{
 			className="A3_Structures_F_Enoch_Civilian";
 			name="Arma 3 Contact Platform - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item72
+		class Item73
+		{
+			className="kat_misc";
+			name="KAT - KAT - MISC";
+			author="Katalam";
+			url="https://github.com/KAT-Advanced-Medical/KAM";
+		};
+		class Item74
 		{
 			className="rhs_c_trucks";
 			name="GAZ-66";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item73
+		class Item75
 		{
 			className="afou_c_gaz66";
 			name="c_gaz66";
 			author="Red Hammer Studios, retexture: Barman75, Brezerk";
 			url="https://bit.ly/ArmaUA";
 		};
-		class Item74
+		class Item76
 		{
 			className="afou_flags";
 			name="flags";
 			author="Barman75, Brezerk";
 			url="https://bit.ly/ArmaUA";
 		};
-		class Item75
+		class Item77
 		{
 			className="CUP_CA_Config";
 			name="CUP_CA_Config";
@@ -717,7 +734,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -743,7 +760,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -756,7 +773,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -769,7 +786,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -30334,7 +30351,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=448;
+		items=450;
 		class Item0
 		{
 			dataType="Layer";
@@ -41840,7 +41857,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -42969,7 +42986,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43043,7 +43060,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43118,7 +43135,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43193,7 +43210,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43268,7 +43285,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43343,7 +43360,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43418,7 +43435,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -43492,7 +43509,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -47683,7 +47700,7 @@ class Mission
 							};
 							id=54714;
 							type="Land_Defibrillator_F";
-							atlOffset=0.00022888184;
+							atlOffset=0.069915771;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -62863,7 +62880,7 @@ class Mission
 								class Attribute1
 								{
 									property="ace_refuel_fuelCargo";
-									expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+									expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 									class Value
 									{
 										class data
@@ -62937,7 +62954,7 @@ class Mission
 								class Attribute1
 								{
 									property="ace_refuel_fuelCargo";
-									expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+									expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 									class Value
 									{
 										class data
@@ -63109,7 +63126,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -63364,7 +63381,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -63619,7 +63636,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -63873,7 +63890,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -63947,7 +63964,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -64201,7 +64218,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -64454,7 +64471,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -76762,7 +76779,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -77178,7 +77195,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -77518,7 +77535,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -77916,7 +77933,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_cookoff_enableAmmoCookoff";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+							expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 							class Value
 							{
 								class data
@@ -78337,7 +78354,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -86401,7 +86418,7 @@ class Mission
 								class Attribute1
 								{
 									property="ace_refuel_fuelCargo";
-									expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+									expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 									class Value
 									{
 										class data
@@ -89789,7 +89806,7 @@ class Mission
 							};
 							id=61715;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item7
 						{
@@ -89809,7 +89826,7 @@ class Mission
 							};
 							id=61716;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item8
 						{
@@ -89829,7 +89846,7 @@ class Mission
 							};
 							id=61717;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item9
 						{
@@ -89849,7 +89866,7 @@ class Mission
 							};
 							id=61718;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item10
 						{
@@ -89869,7 +89886,7 @@ class Mission
 							};
 							id=61719;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item11
 						{
@@ -89889,7 +89906,7 @@ class Mission
 							};
 							id=61720;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item12
 						{
@@ -89909,7 +89926,7 @@ class Mission
 							};
 							id=61721;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item13
 						{
@@ -89929,7 +89946,7 @@ class Mission
 							};
 							id=61722;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item14
 						{
@@ -89949,7 +89966,7 @@ class Mission
 							};
 							id=61723;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item15
 						{
@@ -90048,7 +90065,7 @@ class Mission
 							};
 							id=61728;
 							type="Land_Defibrillator_F";
-							atlOffset=-0.072692871;
+							atlOffset=0.0039978027;
 						};
 						class Item20
 						{
@@ -93646,7 +93663,7 @@ class Mission
 			type="";
 			a=150;
 			b=1911.2072;
-			angle=355.48215;
+			angle=355.48212;
 			id=62060;
 			atlOffset=-12.008255;
 			class CustomAttributes
@@ -93705,7 +93722,7 @@ class Mission
 			b=1371.442;
 			angle=279.56232;
 			id=62061;
-			atlOffset=1.9090729;
+			atlOffset=2.0161133;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -94166,7 +94183,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cookoff_enableAmmoCookoff";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true];};";
+					expression="if (!_value) then {_this setVariable ['ace_cookoff_enableAmmoCookoff', _value, true]}";
 					class Value
 					{
 						class data
@@ -95056,7 +95073,7 @@ class Mission
 			type="";
 			a=150;
 			b=2144.5146;
-			angle=52.121857;
+			angle=52.121853;
 			id=80422;
 			atlOffset=2.9748688;
 			class CustomAttributes
@@ -97181,7 +97198,7 @@ class Mission
 			type="";
 			a=150;
 			b=1894.8152;
-			angle=227.97453;
+			angle=227.97452;
 			id=94187;
 			atlOffset=0.1068573;
 			class CustomAttributes
@@ -97465,7 +97482,7 @@ class Mission
 			type="";
 			a=150;
 			b=1477.0807;
-			angle=175.27676;
+			angle=175.27675;
 			id=94192;
 			atlOffset=4.0244598;
 			class CustomAttributes
@@ -98070,7 +98087,7 @@ class Mission
 			type="";
 			a=150;
 			b=988.93494;
-			angle=68.482231;
+			angle=68.482224;
 			id=96212;
 			atlOffset=-14.715851;
 			class CustomAttributes
@@ -98185,7 +98202,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=12.999997;
+			angle=12.999996;
 			id=96214;
 			atlOffset=0.027481079;
 			class CustomAttributes
@@ -98243,7 +98260,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=102.99997;
+			angle=102.99996;
 			id=96215;
 			atlOffset=0.026931763;
 			class CustomAttributes
@@ -98301,7 +98318,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=102.99998;
+			angle=102.99997;
 			id=96216;
 			atlOffset=0.031341553;
 			class CustomAttributes
@@ -98359,7 +98376,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=12.999997;
+			angle=12.999996;
 			id=96217;
 			class CustomAttributes
 			{
@@ -98532,7 +98549,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=103.99998;
+			angle=103.99997;
 			id=96220;
 			atlOffset=0.031341553;
 			class CustomAttributes
@@ -98705,7 +98722,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=104.99996;
+			angle=104.99995;
 			id=96223;
 			atlOffset=0.02696228;
 			class CustomAttributes
@@ -98763,7 +98780,7 @@ class Mission
 			colorName="ColorYellow";
 			a=10;
 			b=100;
-			angle=104.99998;
+			angle=104.99997;
 			id=96224;
 			atlOffset=0.031356812;
 			class CustomAttributes
@@ -99844,7 +99861,7 @@ class Mission
 			colorName="ColorOrange";
 			a=1.274;
 			b=50;
-			angle=147.99998;
+			angle=147.99997;
 			id=97523;
 			atlOffset=-0.0033874512;
 			class CustomAttributes
@@ -99902,7 +99919,7 @@ class Mission
 			colorName="ColorOrange";
 			a=1.274;
 			b=50;
-			angle=147.99998;
+			angle=147.99997;
 			id=97524;
 			atlOffset=-1.2476044;
 			class CustomAttributes
@@ -99960,7 +99977,7 @@ class Mission
 			colorName="ColorOrange";
 			a=1.274;
 			b=57.730999;
-			angle=57.999996;
+			angle=57.999989;
 			id=97525;
 			atlOffset=0.64498901;
 			class CustomAttributes
@@ -100018,7 +100035,7 @@ class Mission
 			colorName="ColorOrange";
 			a=1.274;
 			b=57.730999;
-			angle=57.999996;
+			angle=57.999989;
 			id=97526;
 			atlOffset=-0.076187134;
 			class CustomAttributes
@@ -100190,6 +100207,122 @@ class Mission
 					};
 				};
 				nAttributes=4;
+			};
+		};
+		class Item448
+		{
+			dataType="Marker";
+			position[]={18143.576,171,14153.139};
+			name="marker_444";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			a=39.419014;
+			b=958.26599;
+			angle=261.32263;
+			id=97530;
+			atlOffset=5.0048676;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item449
+		{
+			dataType="Marker";
+			position[]={17242.629,137.99536,16239.291};
+			name="marker_445";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			a=39.419014;
+			b=1312.918;
+			angle=248.14063;
+			id=97531;
+			atlOffset=-9.4495087;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};
