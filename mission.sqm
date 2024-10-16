@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=99686;
+		nextID=99688;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=52423;
+		nextID=53290;
 	};
 	class Camera
 	{
-		pos[]={16199.418,301.56589,8865.4814};
-		dir[]={-0.0089553827,-0.41169882,0.91127819};
-		up[]={-0.0040456955,0.91131926,0.41167939};
-		aside[]={0.99995309,-2.2755557e-09,0.0098268576};
+		pos[]={28544.889,224.5629,19292.174};
+		dir[]={-0.88793945,-0.37668309,0.26404688};
+		up[]={-0.36107558,0.92632651,0.10737482};
+		aside[]={0.28504184,-4.2112515e-07,0.95853436};
 	};
 };
 binarizationWanted=0;
@@ -733,7 +733,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -759,7 +759,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -772,7 +772,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -785,7 +785,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -30350,7 +30350,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=434;
+		items=436;
 		class Item0
 		{
 			dataType="Layer";
@@ -47699,7 +47699,7 @@ class Mission
 							};
 							id=54714;
 							type="Land_Defibrillator_F";
-							atlOffset=0.00022888184;
+							atlOffset=0.069915771;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -89805,7 +89805,7 @@ class Mission
 							};
 							id=61715;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item7
 						{
@@ -89825,7 +89825,7 @@ class Mission
 							};
 							id=61716;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item8
 						{
@@ -89845,7 +89845,7 @@ class Mission
 							};
 							id=61717;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item9
 						{
@@ -89865,7 +89865,7 @@ class Mission
 							};
 							id=61718;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item10
 						{
@@ -89885,7 +89885,7 @@ class Mission
 							};
 							id=61719;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item11
 						{
@@ -89905,7 +89905,7 @@ class Mission
 							};
 							id=61720;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item12
 						{
@@ -89925,7 +89925,7 @@ class Mission
 							};
 							id=61721;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item13
 						{
@@ -89945,7 +89945,7 @@ class Mission
 							};
 							id=61722;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item14
 						{
@@ -89965,7 +89965,7 @@ class Mission
 							};
 							id=61723;
 							type="Land_PainKillers_F";
-							atlOffset=-0.039672852;
+							atlOffset=1.5258789e-05;
 						};
 						class Item15
 						{
@@ -90064,7 +90064,7 @@ class Mission
 							};
 							id=61728;
 							type="Land_Defibrillator_F";
-							atlOffset=-0.072692871;
+							atlOffset=0.0039978027;
 						};
 						class Item20
 						{
@@ -97311,7 +97311,7 @@ class Mission
 			type="";
 			a=150;
 			b=1325.6719;
-			angle=251.24161;
+			angle=251.24158;
 			id=94190;
 			atlOffset=-6.8827667;
 			class CustomAttributes
@@ -98364,7 +98364,7 @@ class Mission
 			type="";
 			a=169.7083;
 			b=680.35461;
-			angle=192.63228;
+			angle=192.63226;
 			id=97532;
 			atlOffset=6.0299683;
 			class CustomAttributes
@@ -98421,7 +98421,7 @@ class Mission
 			type="";
 			a=169.7083;
 			b=2931.2065;
-			angle=262.63223;
+			angle=262.6322;
 			id=97534;
 			atlOffset=6.6862488;
 			class CustomAttributes
@@ -98478,7 +98478,7 @@ class Mission
 			type="";
 			a=169.7083;
 			b=1386.9272;
-			angle=171.63226;
+			angle=171.63225;
 			id=97535;
 			atlOffset=2.5370941;
 			class CustomAttributes
@@ -98645,34 +98645,35 @@ class Mission
 			dataType="Layer";
 			name="Camp #B";
 			id=97589;
-			atlOffset=0.022018433;
+			atlOffset=-131.99994;
 		};
 		class Item422
 		{
 			dataType="Layer";
 			name="Base Objects";
 			id=97649;
-			atlOffset=2.1188049;
+			atlOffset=-131.99994;
 		};
 		class Item423
 		{
 			dataType="Layer";
 			name="Mobile HQ - BTR";
 			id=97786;
-			atlOffset=0.01461792;
+			atlOffset=-131.99994;
 		};
 		class Item424
 		{
 			dataType="Layer";
 			name="Bunker (Small) #B1";
 			id=97803;
+			atlOffset=-131.99994;
 		};
 		class Item425
 		{
 			dataType="Layer";
 			name="Living Quarters #B";
 			id=97829;
-			atlOffset=7.6293945e-05;
+			atlOffset=-131.99994;
 		};
 		class Item426
 		{
@@ -98693,7 +98694,7 @@ class Mission
 					dataType="Layer";
 					name="Improvised Bunker 06_5";
 					id=98165;
-					atlOffset=0.10253906;
+					atlOffset=-131.99994;
 				};
 				class Item1
 				{
@@ -98714,7 +98715,7 @@ class Mission
 									dataType="Layer";
 									name="Low_M2_Bunker_5";
 									id=98383;
-									atlOffset=-0.033157349;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
@@ -98747,11 +98748,11 @@ class Mission
 								};
 							};
 							id=98382;
-							atlOffset=-69.024429;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98381;
-					atlOffset=-69.024429;
+					atlOffset=-131.99994;
 				};
 				class Item2
 				{
@@ -98772,43 +98773,43 @@ class Mission
 									dataType="Layer";
 									name="Details_21";
 									id=98276;
-									atlOffset=0.24275208;
+									atlOffset=-131.99994;
 								};
 							};
 							id=98275;
-							atlOffset=0.24275208;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98274;
-					atlOffset=0.24275208;
+					atlOffset=-131.99994;
 				};
 				class Item3
 				{
 					dataType="Layer";
 					name="Middle Eastern Governor Compound_5";
 					id=98290;
-					atlOffset=0.71562195;
+					atlOffset=-131.99994;
 				};
 				class Item4
 				{
 					dataType="Layer";
 					name="Improvised Bunker 05_5";
 					id=98184;
-					atlOffset=0.00085449219;
+					atlOffset=-131.99994;
 				};
 				class Item5
 				{
 					dataType="Layer";
 					name="Big Improvised Wooden Bridge_5";
 					id=98433;
-					atlOffset=1.0078278;
+					atlOffset=-131.99994;
 				};
 				class Item6
 				{
 					dataType="Layer";
 					name="Junk Roadblock (w/Interior)_5";
 					id=98377;
-					atlOffset=0.16261292;
+					atlOffset=-131.99994;
 				};
 				class Item7
 				{
@@ -98829,36 +98830,36 @@ class Mission
 									dataType="Layer";
 									name="decal_5";
 									id=98194;
-									atlOffset=2.7857666;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="details_20";
 									id=98221;
-									atlOffset=-1.0769348;
+									atlOffset=-131.99994;
 								};
 								class Item2
 								{
 									dataType="Layer";
 									name="garbage_5";
 									id=98235;
-									atlOffset=-0.031890869;
+									atlOffset=-131.99994;
 								};
 							};
 							id=98193;
-							atlOffset=0.41383362;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98192;
-					atlOffset=0.41383362;
+					atlOffset=-131.99994;
 				};
 				class Item8
 				{
 					dataType="Layer";
 					name="Tank Position_5";
 					id=98391;
-					atlOffset=2.1775513;
+					atlOffset=-131.99994;
 				};
 				class Item9
 				{
@@ -98872,11 +98873,11 @@ class Mission
 							dataType="Layer";
 							name="Ruined House 1_5";
 							id=98286;
-							atlOffset=1.1122742;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98285;
-					atlOffset=1.1122742;
+					atlOffset=-131.99994;
 				};
 				class Item10
 				{
@@ -98897,22 +98898,22 @@ class Mission
 									dataType="Layer";
 									name="Dirt_6";
 									id=98305;
-									atlOffset=0.070709229;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="Details_22";
 									id=98322;
-									atlOffset=-0.054504395;
+									atlOffset=-131.99994;
 								};
 							};
 							id=98304;
-							atlOffset=0.011276245;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98303;
-					atlOffset=0.011276245;
+					atlOffset=-131.99994;
 				};
 				class Item11
 				{
@@ -98926,11 +98927,11 @@ class Mission
 							dataType="Layer";
 							name="Checkpoint_Roadblock_7";
 							id=98271;
-							atlOffset=-0.046188354;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98270;
-					atlOffset=-0.046188354;
+					atlOffset=-131.99994;
 				};
 				class Item12
 				{
@@ -98951,7 +98952,7 @@ class Mission
 									dataType="Layer";
 									name="objects_11";
 									id=98239;
-									atlOffset=1.0215149;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
@@ -98962,11 +98963,11 @@ class Mission
 								};
 							};
 							id=98238;
-							atlOffset=-68.409721;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98237;
-					atlOffset=-68.409721;
+					atlOffset=-131.99994;
 				};
 				class Item13
 				{
@@ -98980,11 +98981,11 @@ class Mission
 							dataType="Layer";
 							name="Trench_6";
 							id=98244;
-							atlOffset=1.8249664;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98243;
-					atlOffset=1.8249664;
+					atlOffset=-131.99994;
 				};
 				class Item14
 				{
@@ -98998,18 +98999,18 @@ class Mission
 							dataType="Layer";
 							name="Holz Graben_5";
 							id=98326;
-							atlOffset=1.8057251;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98325;
-					atlOffset=1.8057251;
+					atlOffset=-131.99994;
 				};
 				class Item15
 				{
 					dataType="Layer";
 					name="Modular Dirt Trenches_5";
 					id=98401;
-					atlOffset=1.4137115;
+					atlOffset=-131.99994;
 				};
 				class Item16
 				{
@@ -99030,40 +99031,40 @@ class Mission
 									dataType="Layer";
 									name="Details_23";
 									id=98364;
-									atlOffset=0.2230835;
+									atlOffset=-131.99994;
 								};
 							};
 							id=98363;
-							atlOffset=0.2230835;
+							atlOffset=-131.99994;
 						};
 					};
 					id=98362;
-					atlOffset=0.2230835;
+					atlOffset=-131.99994;
 				};
 				class Item17
 				{
 					dataType="Layer";
 					name="Random NATO OP_5";
 					id=98187;
-					atlOffset=2.0211945;
+					atlOffset=-131.99994;
 				};
 				class Item18
 				{
 					dataType="Layer";
 					name="Veichle Position_5";
 					id=98368;
-					atlOffset=-0.061203003;
+					atlOffset=-131.99994;
 				};
 				class Item19
 				{
 					dataType="Layer";
 					name="Medic Station DIRTY (High Tech // CRBN)_5";
 					id=98371;
-					atlOffset=-0.042358398;
+					atlOffset=-131.99994;
 				};
 			};
 			id=98454;
-			atlOffset=0.21131897;
+			atlOffset=-131.99994;
 		};
 		class Item428
 		{
@@ -99077,7 +99078,7 @@ class Mission
 					dataType="Layer";
 					name="Improvised Bunker 06_6";
 					id=98992;
-					atlOffset=-0.27450562;
+					atlOffset=-131.99994;
 				};
 				class Item1
 				{
@@ -99098,7 +99099,7 @@ class Mission
 									dataType="Layer";
 									name="Low_M2_Bunker_6";
 									id=99210;
-									atlOffset=-0.23474121;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
@@ -99131,11 +99132,11 @@ class Mission
 								};
 							};
 							id=99209;
-							atlOffset=-69.410721;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99208;
-					atlOffset=-69.410721;
+					atlOffset=-131.99994;
 				};
 				class Item2
 				{
@@ -99156,43 +99157,43 @@ class Mission
 									dataType="Layer";
 									name="Details_25";
 									id=99103;
-									atlOffset=0.13742065;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99102;
-							atlOffset=0.13742065;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99101;
-					atlOffset=0.13742065;
+					atlOffset=-131.99994;
 				};
 				class Item3
 				{
 					dataType="Layer";
 					name="Middle Eastern Governor Compound_6";
 					id=99117;
-					atlOffset=0.24206543;
+					atlOffset=-131.99994;
 				};
 				class Item4
 				{
 					dataType="Layer";
 					name="Improvised Bunker 05_6";
 					id=99011;
-					atlOffset=-0.12805176;
+					atlOffset=-131.99994;
 				};
 				class Item5
 				{
 					dataType="Layer";
 					name="Big Improvised Wooden Bridge_6";
 					id=99260;
-					atlOffset=0.48510742;
+					atlOffset=-131.99994;
 				};
 				class Item6
 				{
 					dataType="Layer";
 					name="Junk Roadblock (w/Interior)_6";
 					id=99204;
-					atlOffset=0.48789978;
+					atlOffset=-131.99994;
 				};
 				class Item7
 				{
@@ -99213,36 +99214,36 @@ class Mission
 									dataType="Layer";
 									name="decal_6";
 									id=99021;
-									atlOffset=2.6216888;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="details_24";
 									id=99048;
-									atlOffset=-0.53959656;
+									atlOffset=-131.99994;
 								};
 								class Item2
 								{
 									dataType="Layer";
 									name="garbage_6";
 									id=99062;
-									atlOffset=-0.045501709;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99020;
-							atlOffset=0.40100098;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99019;
-					atlOffset=0.40100098;
+					atlOffset=-131.99994;
 				};
 				class Item8
 				{
 					dataType="Layer";
 					name="Tank Position_6";
 					id=99218;
-					atlOffset=1.2948456;
+					atlOffset=-131.99994;
 				};
 				class Item9
 				{
@@ -99256,11 +99257,11 @@ class Mission
 							dataType="Layer";
 							name="Ruined House 1_6";
 							id=99113;
-							atlOffset=1.7729797;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99112;
-					atlOffset=1.7729797;
+					atlOffset=-131.99994;
 				};
 				class Item10
 				{
@@ -99281,22 +99282,22 @@ class Mission
 									dataType="Layer";
 									name="Dirt_7";
 									id=99132;
-									atlOffset=-0.14361572;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="Details_26";
 									id=99149;
-									atlOffset=-0.17648315;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99131;
-							atlOffset=-0.1414032;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99130;
-					atlOffset=-0.1414032;
+					atlOffset=-131.99994;
 				};
 				class Item11
 				{
@@ -99310,11 +99311,11 @@ class Mission
 							dataType="Layer";
 							name="Checkpoint_Roadblock_8";
 							id=99098;
-							atlOffset=-0.3401947;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99097;
-					atlOffset=-0.3401947;
+					atlOffset=-131.99994;
 				};
 				class Item12
 				{
@@ -99335,22 +99336,22 @@ class Mission
 									dataType="Layer";
 									name="objects_13";
 									id=99066;
-									atlOffset=1.2159271;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="decor_6";
 									id=99068;
-									atlOffset=-0.32855225;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99065;
-							atlOffset=0.20582581;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99064;
-					atlOffset=0.20582581;
+					atlOffset=-131.99994;
 				};
 				class Item13
 				{
@@ -99364,11 +99365,11 @@ class Mission
 							dataType="Layer";
 							name="Trench_7";
 							id=99071;
-							atlOffset=1.6516266;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99070;
-					atlOffset=1.6516266;
+					atlOffset=-131.99994;
 				};
 				class Item14
 				{
@@ -99382,18 +99383,18 @@ class Mission
 							dataType="Layer";
 							name="Holz Graben_6";
 							id=99153;
-							atlOffset=1.6276703;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99152;
-					atlOffset=1.6276703;
+					atlOffset=-131.99994;
 				};
 				class Item15
 				{
 					dataType="Layer";
 					name="Modular Dirt Trenches_6";
 					id=99228;
-					atlOffset=0.77030945;
+					atlOffset=-131.99994;
 				};
 				class Item16
 				{
@@ -99414,40 +99415,40 @@ class Mission
 									dataType="Layer";
 									name="Details_27";
 									id=99191;
-									atlOffset=0.039398193;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99190;
-							atlOffset=0.039398193;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99189;
-					atlOffset=0.039398193;
+					atlOffset=-131.99994;
 				};
 				class Item17
 				{
 					dataType="Layer";
 					name="Random NATO OP_6";
 					id=99014;
-					atlOffset=1.8370972;
+					atlOffset=-131.99994;
 				};
 				class Item18
 				{
 					dataType="Layer";
 					name="Veichle Position_6";
 					id=99195;
-					atlOffset=0.14332581;
+					atlOffset=-131.99994;
 				};
 				class Item19
 				{
 					dataType="Layer";
 					name="Medic Station DIRTY (High Tech // CRBN)_6";
 					id=99198;
-					atlOffset=-0.37055969;
+					atlOffset=-131.99994;
 				};
 			};
 			id=99281;
-			atlOffset=0.1023407;
+			atlOffset=-131.99994;
 		};
 		class Item429
 		{
@@ -99461,7 +99462,7 @@ class Mission
 					dataType="Layer";
 					name="Improvised Bunker 06_7";
 					id=99286;
-					atlOffset=-0.003326416;
+					atlOffset=-131.99994;
 				};
 				class Item1
 				{
@@ -99482,7 +99483,7 @@ class Mission
 									dataType="Layer";
 									name="Low_M2_Bunker_7";
 									id=99504;
-									atlOffset=-0.0040283203;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
@@ -99515,11 +99516,11 @@ class Mission
 								};
 							};
 							id=99503;
-							atlOffset=-69.508728;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99502;
-					atlOffset=-69.508728;
+					atlOffset=-131.99994;
 				};
 				class Item2
 				{
@@ -99540,43 +99541,43 @@ class Mission
 									dataType="Layer";
 									name="Details_29";
 									id=99397;
-									atlOffset=0.28300476;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99396;
-							atlOffset=0.28300476;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99395;
-					atlOffset=0.28300476;
+					atlOffset=-131.99994;
 				};
 				class Item3
 				{
 					dataType="Layer";
 					name="Middle Eastern Governor Compound_7";
 					id=99411;
-					atlOffset=0.48355103;
+					atlOffset=-131.99994;
 				};
 				class Item4
 				{
 					dataType="Layer";
 					name="Improvised Bunker 05_7";
 					id=99305;
-					atlOffset=0.1217041;
+					atlOffset=-131.99994;
 				};
 				class Item5
 				{
 					dataType="Layer";
 					name="Big Improvised Wooden Bridge_7";
 					id=99554;
-					atlOffset=0.31738281;
+					atlOffset=-131.99994;
 				};
 				class Item6
 				{
 					dataType="Layer";
 					name="Junk Roadblock (w/Interior)_7";
 					id=99498;
-					atlOffset=0.19894409;
+					atlOffset=-131.99994;
 				};
 				class Item7
 				{
@@ -99597,36 +99598,36 @@ class Mission
 									dataType="Layer";
 									name="decal_7";
 									id=99315;
-									atlOffset=2.8367462;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="details_28";
 									id=99342;
-									atlOffset=0.048049927;
+									atlOffset=-131.99994;
 								};
 								class Item2
 								{
 									dataType="Layer";
 									name="garbage_7";
 									id=99356;
-									atlOffset=0.0067749023;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99314;
-							atlOffset=0.42341614;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99313;
-					atlOffset=0.42341614;
+					atlOffset=-131.99994;
 				};
 				class Item8
 				{
 					dataType="Layer";
 					name="Tank Position_7";
 					id=99512;
-					atlOffset=1.3316498;
+					atlOffset=-131.99994;
 				};
 				class Item9
 				{
@@ -99640,11 +99641,11 @@ class Mission
 							dataType="Layer";
 							name="Ruined House 1_7";
 							id=99407;
-							atlOffset=1.2481689;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99406;
-					atlOffset=1.2481689;
+					atlOffset=-131.99994;
 				};
 				class Item10
 				{
@@ -99665,22 +99666,22 @@ class Mission
 									dataType="Layer";
 									name="Dirt_8";
 									id=99426;
-									atlOffset=0.043182373;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="Details_30";
 									id=99443;
-									atlOffset=-0.0043182373;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99425;
-							atlOffset=-0.3669281;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99424;
-					atlOffset=-0.3669281;
+					atlOffset=-131.99994;
 				};
 				class Item11
 				{
@@ -99694,11 +99695,11 @@ class Mission
 							dataType="Layer";
 							name="Checkpoint_Roadblock_9";
 							id=99392;
-							atlOffset=-0.0042114258;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99391;
-					atlOffset=-0.0042114258;
+					atlOffset=-131.99994;
 				};
 				class Item12
 				{
@@ -99719,22 +99720,22 @@ class Mission
 									dataType="Layer";
 									name="objects_15";
 									id=99360;
-									atlOffset=1.2082825;
+									atlOffset=-131.99994;
 								};
 								class Item1
 								{
 									dataType="Layer";
 									name="decor_7";
 									id=99362;
-									atlOffset=0.035247803;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99359;
-							atlOffset=0.62176514;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99358;
-					atlOffset=0.62176514;
+					atlOffset=-131.99994;
 				};
 				class Item13
 				{
@@ -99748,11 +99749,11 @@ class Mission
 							dataType="Layer";
 							name="Trench_8";
 							id=99365;
-							atlOffset=1.882782;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99364;
-					atlOffset=1.882782;
+					atlOffset=-131.99994;
 				};
 				class Item14
 				{
@@ -99766,18 +99767,18 @@ class Mission
 							dataType="Layer";
 							name="Holz Graben_7";
 							id=99447;
-							atlOffset=1.846283;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99446;
-					atlOffset=1.846283;
+					atlOffset=-131.99994;
 				};
 				class Item15
 				{
 					dataType="Layer";
 					name="Modular Dirt Trenches_7";
 					id=99522;
-					atlOffset=1.4702454;
+					atlOffset=-131.99994;
 				};
 				class Item16
 				{
@@ -99798,40 +99799,40 @@ class Mission
 									dataType="Layer";
 									name="Details_31";
 									id=99485;
-									atlOffset=0.25535583;
+									atlOffset=-131.99994;
 								};
 							};
 							id=99484;
-							atlOffset=0.25535583;
+							atlOffset=-131.99994;
 						};
 					};
 					id=99483;
-					atlOffset=0.25535583;
+					atlOffset=-131.99994;
 				};
 				class Item17
 				{
 					dataType="Layer";
 					name="Random NATO OP_7";
 					id=99308;
-					atlOffset=2.0642242;
+					atlOffset=-131.99994;
 				};
 				class Item18
 				{
 					dataType="Layer";
 					name="Veichle Position_7";
 					id=99489;
-					atlOffset=0.086578369;
+					atlOffset=-131.99994;
 				};
 				class Item19
 				{
 					dataType="Layer";
 					name="Medic Station DIRTY (High Tech // CRBN)_7";
 					id=99492;
-					atlOffset=-0.0043334961;
+					atlOffset=-131.99994;
 				};
 			};
 			id=99575;
-			atlOffset=0.1763916;
+			atlOffset=-131.99994;
 		};
 		class Item430
 		{
@@ -99842,7 +99843,7 @@ class Mission
 			type="";
 			a=169.7083;
 			b=1182.7782;
-			angle=37.632263;
+			angle=37.632259;
 			id=99682;
 			atlOffset=0.29237366;
 			class CustomAttributes
@@ -99956,7 +99957,7 @@ class Mission
 			type="";
 			a=150;
 			b=544.14166;
-			angle=299.42514;
+			angle=299.42511;
 			id=99684;
 			atlOffset=1.8763428;
 			class CustomAttributes
@@ -100016,6 +100017,122 @@ class Mission
 			angle=317.42514;
 			id=99685;
 			atlOffset=-14.639343;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item434
+		{
+			dataType="Marker";
+			position[]={29949.969,176.91113,18752.928};
+			name="marker_419";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			a=38.997917;
+			b=1475.5007;
+			angle=359.09882;
+			id=99686;
+			atlOffset=2.4447937;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item435
+		{
+			dataType="Marker";
+			position[]={26416.215,160.21753,18736.477};
+			name="marker_450";
+			markerType="RECTANGLE";
+			type="";
+			colorName="ColorBlue";
+			a=38.997917;
+			b=1700.2095;
+			angle=359.46765;
+			id=99687;
+			atlOffset=-3.2333679;
 			class CustomAttributes
 			{
 				class Attribute0
